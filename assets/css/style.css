@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
 }
+
 body {
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -34,10 +35,15 @@ p {
     padding-bottom: 20px;
 }
 
-.submit {
+.submit, #start {
     margin: 40px;
     padding: 10px;
     background-color: darkolivegreen;
     color: white;
     font-size: 20px;
 }
+ a:link, a:visited, a:hover, a:active {
+     color: white;
+     text-decoration: none;
+     padding: 20px;
+ }
