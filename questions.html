@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Trivia Game</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    </head>
+    <body>
+        <div id="game">
+            <h2 id="title">Harry Potter Trivia Game</h2>
+            <div id="timer-div">
+                <p id="timer">Timer: <p id="time"></p></p>
+            </div>
+            <div id="questions">
+                <form>
+                <p class="q">What house was Harry sorted into?</p>
+                    
+                    <label class="radio-inline" class="a"> <input type="radio" class="q1" name="q1" value="wrong"> Hufflepuff</label>
+                    <label class="radio-inline" class="a"> <input type="radio" class="q1" name="q1" value="wrong"> Ravenclaw</label>
+                    <label class="radio-inline" class="a"> <input type="radio" class="q1" name="q1" value="correct"> Gryffindor</label>
+                    <label class="radio-inline" class="a"> <input type="radio" class="q1" name="q1" value="wrong"> Slytherin</label>
+                    
+                <p class="q">What house was Draco Malfoy sorted into?</p>
+                    
+                    <label class="radio-inline" class="a"> <input type="radio" class="q2" name="q2" value="wrong"> Hufflepuff</label>
+                    <label class="radio-inline" class="a"> <input type="radio" class="q2" name="q2" value="wrong"> Ravenclaw</label>
+                    <label class="radio-inline" class="a"> <input type="radio" class="q2" name="q2" value="wrong"> Gryffindor</label>
+                    <label class="radio-inline" class="a"> <input type="radio" class="q2" name="q2" value="correct"> Slytherin</label>
+                    
+                <p class="q">Who is Harry's least favorite teacher?</p>
+                
+                    <label class="radio-inline" class="a"> <input type="radio" class="q3" name="q3" value="correct"> Proffesor Snape</label>
+                    <label class="radio-inline" class="a"> <input type="radio" class="q3" name="q3" value="wrong"> Proffesor Dumbledore</label>
+                    <label class="radio-inline" class="a"> <input type="radio" class="q3" name="q3" value="wrong"> Proffesor Flitwick</label>
+                    <label class="radio-inline" class="a"> <input type="radio" class="q3" name="q3" value="wrong"> Professor Mcgonagal</label>
+                    
+                    <br><input type="submit" class="submit">
+                </form>
+        
+
+            </div>
+
+            <div id="results">
+                <p>Your results are:</p>
+                <p>Correct: <span id="correct-text"></span></p>
+                <p>Incorrect: <span id="incorrect-text"></span></p>
+
+
+            </div>
+            
+            
+         </div>
+
+
+
+        <script src="assets/javascript/app.js"></script>
+    </body>
+</html>

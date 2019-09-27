@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: darkolivegreen;   
+}
+#game {
+    padding: 40px;
+    margin: 100px;
+    background-color: olive;
+}
+
+form {
+    padding-bottom: 50px;
+}
+
+.q {
+    font-size: 18px;
+    font-style: oblique;
+}
+
+h2 {
+    padding-bottom: 50px;
+    font-size: 40px;
+}
+
+p {
+    margin: 20px;
+}
+
+#time {
+    padding-bottom: 20px;
+}
+
+.submit {
+    margin: 40px;
+    padding: 10px;
+    background-color: darkolivegreen;
+    color: white;
+    font-size: 20px;
+}
